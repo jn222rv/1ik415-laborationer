@@ -6,7 +6,7 @@
     </head>
     
     <body>
-        <h1>Rubrik</h1>
+        <h1>Kontakt</h1>
         
         <ul>
             <li><a href="../index.html">Start</a></li>
@@ -14,5 +14,25 @@
             <li><a href="laborationer.html">Laboration</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
+        
+        <p>Mitt Formulär</p>
+        
+        <form name="input" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+           <p style="border-style:2px">
+           Ärenetyp:
+            <select name="Type">
+                <option value="Question">Fråga</option>
+                <option value="Other">Annat</option>
+                <option value="More other">Mer Annat</option>
+            </select>
+            <br>Rubrik: <input type="text" name="Subject">
+            <br>Fråga: <textarea name="Question" rows="2"></textarea>
+            </p>
+        
+            <br><input type="checkbox" name="Contact" value="Mail"/>Kontakta mig genom mail<br>
+            <input type="checkbox" name="Contact" value="Telephone"/>Kontakta mig via telefon
+            
+            <br><input type="submit" value="Submit"/>
+        </form>
     </body>
 </html>
