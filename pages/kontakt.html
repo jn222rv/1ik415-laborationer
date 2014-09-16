@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title></title>
+        <title>Kontakta</title>
     </head>
     
     <body>
@@ -15,24 +15,28 @@
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
         
-        <p>Mitt Formulär</p>
+        <h3 id="form">Mitt Formulär</h3>
         
         <form name="input" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-           <p style="border-style:2px">
-           Ärenetyp:
-            <select name="Type">
-                <option value="Question">Fråga</option>
-                <option value="Other">Annat</option>
-                <option value="More other">Mer Annat</option>
-            </select>
-            <br>Rubrik: <input type="text" name="Subject">
-            <br>Fråga: <textarea name="Question" rows="2"></textarea>
-            </p>
-        
-            <br><input type="checkbox" name="Contact" value="Mail"/>Kontakta mig genom mail<br>
-            <input type="checkbox" name="Contact" value="Telephone"/>Kontakta mig via telefon
+           <fieldset>
+               <legend>Kommentera</legend>
+               Ärendetyp:
+                <select name="Type">
+                    <option value="Question">Fråga</option>
+                    <option value="Demand">Krav</option>
+                    <option value="Other">Annat</option>
+                </select>
+                <br>Rubrik: <input type="text" name="Subject">
+                <br>Kommentar: <textarea name="Comment" rows="2"></textarea>
+           </fieldset>
             
-            <br><input type="submit" value="Submit"/>
+            <fieldset>
+                <legend>Vilken kaka?</legend>
+                <input type="radio" name="info" value="right answer"  checked="checked" />Ballerina<br>
+                <input type="radio" name="info" value="wrong answer"/>Singoalla
+            </fieldset>
+            
+            <input type="submit" value="Skicka"/>
         </form>
     </body>
 </html>
