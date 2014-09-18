@@ -1,0 +1,25 @@
+#header {
+        border:solid;
+        margin-left:5px;
+}
+
+#content{
+        position:relative;
+        border:solid;
+        padding:20px;
+        left:180px;
+        bottom:110px;
+        width:1650px;
+        margin-left:10px;
+        margin-top:-5px;
+}
+
+#navigation{
+        border:solid;
+        width:175px;
+        margin:5px;
+}
+#footer{
+    border:solid;
+    margin-top:-105px;
+}

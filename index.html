@@ -2,40 +2,52 @@
 <html>
     <head>
         <meta charset='utf-8' />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
         <title>Min Startsida</title>
     </head>
 
     <body>
-        <h1>Välkommen till min Startsida <img src="pics/newLogo.png" alt="Min Loga"></h1>
+    
+        <div id="header">
+            <h1>Välkommen till min Startsida <img src="pics/newLogo.png" alt="JN"></h1>
+        </div>
         
-          <ul>
-            <li><a href="index.html">Start</a></li>
-            <li><a href="pages/presentation.html">Presentation</a></li>
-            <li><a href="pages/laborationer.html">Laboration</a></li>
-            <li><a href="pages/kontakt.html">Kontakt</a></li>
-        </ul>
+        <div id="navigation">
+            <ul>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="pages/presentation.html">Presentation</a></li>
+                <li><a href="pages/laborationer.html">Laboration</a></li>
+                <li><a href="pages/kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
         
-        <h2>Mina Uppdateringar</h2>
-        <p>Välkommen! Här nere är dem senaste uppdateraringarna!</p>
+        <div id="content">
+            <h2>Mina Uppdateringar</h2>
+            <p>Välkommen! Här nere är dem senaste uppdateraringarna!</p>
+            
+            <h3 id="video">Videotest</h3>
+            <video src="videos/trailer_400p.ogg" height="300" width="300" preload="none" controls></video>
+            <p>Skrivet av Jonathan den 15 September 2014</p>
+            
+            <h3 id="pictures">Nytt Bloginlägg</h3>
+            <p>Här kommer ett nytt blogginlägg</p>
+            <img src="pics/myPicture.svg" alt="Smiley"/>
+            <p>^ Detta är jag nu.</p>
+            <p>Skrivet av Jonathan den 15 September 2014</p>
+            
+            <h3>Detta kommer att bli min startsida</h3>
+            <p>Det här är min egna sida jag nu skapar. Denna hemsida kommer att handla om mig, och min programmering.</p>
+            <p>Skrivet av Jonathan den 15 September 2014</p>
+            
+            <h3>Kort förklaring</h3>
+            <p>Denna hemsida är ett undergående projekt där mer och mer kommer att läggas till med tiden. 
+            Jag har själv inte hållit på väldigt mycket med HTML och CSS, så detta projekt handlar mycket om min egna framväxt som programmerare.
+            Förhoppningsis kommer sidan att bli bättre parallellt som jag blir bättre som programmerare. </p>
+        </div>
         
-        <h3 id="video">Videotest</h3>
-        <video src="videos/trailer_400p.ogg" height="300" width="300" preload="none" controls></video>
-        <p>Skrivet av Jonathan den 15 September 2014</p>
-        
-        <h3 id="pictures">Nytt Bloginlägg</h3>
-        <p>Här kommer ett nytt blogginlägg</p>
-        <img src="pics/myPicture.svg" alt="Min Bild"/>
-        <p>^ Detta är jag nu.</p>
-        <p>Skrivet av Jonathan den 15 September 2014</p>
-        
-        <h3>Detta kommer att bli min startsida</h3>
-        <p>Det här är min egna sida jag nu skapar. Denna hemsida kommer att handla om mig, och min programmering.</p>
-        <p>Skrivet av Jonathan den 15 September 2014</p>
-        
-        <h3>Kort förklaring</h3>
-        <p>Denna hemsida är ett undergående projekt där mer och mer kommer att läggas till med tiden. 
-        Jag har själv inte hållit på väldigt mycket med HTML och CSS, så detta projekt handlar mycket om min egna framväxt som programmerare.
-        Förhoppningsis kommer sidan att bli bättre parallellt som jag blir bättre som programmerare. </p>
+        <div id="footer">
+            <p>Skrivet av mig den 18 September</p>
+        </div>
     </body>
     
 </html>
