@@ -1,9 +1,22 @@
 #header {
         border:solid;
+        border-radius:10px;
         margin-left:5px;
+        padding-left:30px;
+        background-color:#CADEEE;
 }
 
-#content{
+body {
+        background-color:#7D9EC0;
+}
+
+#header img {
+        border:solid;
+        margin-bottom:-15px;
+}
+
+#content {
+        background-color:#C0DEED;
         position:relative;
         border:solid;
         padding:20px;
@@ -14,12 +27,30 @@
         margin-top:-5px;
 }
 
-#navigation{
+#navigation {
         border:solid;
         width:175px;
         margin:5px;
+        background-color:#96CDCD;
 }
-#footer{
+
+#footer {
     border:solid;
     margin-top:-105px;
+    background-color:#008B8B;
+    padding-left:15px;
 }
+
+#video video {
+        border-style:dotted; color:#000066;
+}
+
+
+/*
+
+        Checklist:
+        
+        Logo
+        Colour
+
+*/

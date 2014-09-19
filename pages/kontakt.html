@@ -2,41 +2,52 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
         <title>Kontakta</title>
     </head>
     
     <body>
-        <h1>Kontakt</h1>
+        <div id="header">
+            <h1>Kontakt</h1>
+        </div>
         
-        <ul>
-            <li><a href="../index.html">Start</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="laborationer.html">Laboration</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
+        <div id="navigation">
+            <ul>
+                <li><a href="../index.html">Start</a></li>
+                <li><a href="presentation.html">Presentation</a></li>
+                <li><a href="laborationer.html">Laboration</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
         
-        <h3 id="form">Mitt Formulär</h3>
-        
-        <form name="input" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-           <fieldset>
-                <legend>Kommentera</legend>
-                Ärendetyp:
-                <select name="Type">
-                    <option value="Question">Fråga</option>
-                    <option value="Demand">Krav</option>
-                    <option value="Other">Annat</option>
-                </select>
-                <br>Rubrik: <input type="text" name="Subject">
-                <br>Kommentar: <textarea name="Comment" rows="2"></textarea>
-           </fieldset>
+        <div id="content">
+            <h3 id="form">Mitt Formulär</h3>
             
-            <fieldset>
-                <legend>Vilken kaka?</legend>
-                <input type="radio" name="Info" value="right answer"  checked="checked" />Ballerina<br>
-                <input type="radio" name="Info" value="wrong answer"/>Singoalla
-            </fieldset>
-            
-            <input type="submit" value="Skicka"/>
-        </form>
+            <form name="input" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+               <fieldset>
+                    <legend>Kommentera</legend>
+                    Ärendetyp:
+                    <select name="Type">
+                        <option value="Question">Fråga</option>
+                        <option value="Demand">Krav</option>
+                        <option value="Other">Annat</option>
+                    </select>
+                    <br>Rubrik: <input type="text" name="Subject">
+                    <br>Kommentar: <textarea name="Comment" rows="2"></textarea>
+               </fieldset>
+                
+                <fieldset>
+                    <legend>Vilken kaka?</legend>
+                    <input type="radio" name="Info" value="right answer"  checked="checked" />Ballerina<br>
+                    <input type="radio" name="Info" value="wrong answer"/>Singoalla
+                </fieldset>
+                
+                <input type="submit" value="Skicka"/>
+            </form>
+        </div>
+        
+        <div id="footer">
+            <p>Skrivet av mig den 18 September</p>
+        </div>
     </body>
 </html>

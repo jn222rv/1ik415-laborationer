@@ -2,141 +2,152 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
         <title>Laborationer</title>
     </head>
     
     <body>
-        <h1>Labportal</h1>
+        <div id="header">
+            <h1>Labportal</h1>
+        </div>
+        
+        <div id="navigation">
+            <ul>
+                <li><a href="../index.html">Start</a></li>
+                <li><a href="presentation.html">Presentation</a></li>
+                <li><a href="laborationer.html">Laborationer</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
     
-        <ul>
-            <li><a href="../index.html">Start</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="laborationer.html">Laborationer</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-    
-        <a href="presentation.html#orbs">Till Bild</a>
-        <a href="../pics/newLogo.png">Min Loga</a>
-        
-        <h2>Webbteknisk introduktion</h2>
-    
-        <ul>
-            <li><a href="#Lab1.4">Laboration 1.4</a></li>
-            <li><a href="#Lab1.6">Laboration 1.6</a></li>
-            <li><a href="#Lab1.7">Laboration 1.7</a></li>
-            <li><a href="#Lab1.9">Laboration 1.9</a></li>
-        </ul>
-        
-        <h3>Resultat</h3>
-        
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Laboration</th>
-                    <th>Uppgift</th>
-                    <th>Status</th>
-                    <th>Redovisad</th>
-                </tr>
-            </thead>
-            <tfoot>
-                <tr>
-                    <th colspan="4">Laborationer för Jonathan Nilsson</th>
-                </tr>
-            </tfoot>
-            <tbody>
-                <tr>
-                    <td rowspan="3">1</td>
-                    <td>1</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td rowspan="6">2</td>
-                    <td>1</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-           
-        </table>
-        
-        <h3 id="lab1.4">Laboration 1.4</h3>
-        <p>Uppgifter:</p>
-            <ol>
-                <li>Absoluta och relativa sökvägar
-                    <dl>
-                        <dt>Skriv den absoluta sökvägen till filen bottom.html</dt>
-                        <dd>www.server.se/html/pages/bottom.html</dd>
-                        
-                        <dt>Skriv den relativa sökvägen från filen default.html till filen top.html</dt>
-                        <dd>pages/top.html</dd>
-                        
-                        <dt>Skriv den relativa sökvägen från filen bottom.html till filen index.html</dt>
-                        <dd>../../index</dd>
-                        
-                        <dt>Skriv den absoluta sökvägen till filen index.html</dt>
-                        <dd>www.server.se/index.html</dd>
-                        
-                        <dt>Skriv den relativa sökvägen från filen top.html till filen bottom.html</dt>
-                        <dd>bottom.html</dd>
-                        
-                        <dt>Skriv den relativa sökvägen från filen index.html till filen top.html</dt>
-                        <dd>html/pages/top.html</dd>
-                    </dl>
-                </li>
-                <li>Länkar och listor</li>
-                <li>Bilder</li>
-                <li>Video</li>
-            </ol>
-                
-        <a id="Lab1.6"></a>
-            <h3>Laboration 1.6</h3>
-            <p><a href="../index.html#pictures">Bild Inlägget</a></p>
-            <p>Här skapade jag själv en bild av vektorgrafik och använde mig av img-taggen för att kunna visa den i mitt blogg-inlägg.</p>
+        <div id="content">
+            <a href="presentation.html#orbs">Till Bild</a>
+            <a href="../pics/newLogo.png">Min Loga</a>
             
-        <a id="Lab1.7"></a>
-            <h3>Laboration 1.7</h3>
-            <p><a href="../index.html#video">Video Inlägget</a></p>
-            <p>Här använde jag mig av taggen video, för att kunna visa en video på sidan.</p>
+            <h2>Webbteknisk introduktion</h2>
+        
+            <ul>
+                <li><a href="#Lab1.4">Laboration 1.4</a></li>
+                <li><a href="#Lab1.6">Laboration 1.6</a></li>
+                <li><a href="#Lab1.7">Laboration 1.7</a></li>
+                <li><a href="#Lab1.9">Laboration 1.9</a></li>
+            </ul>
+            
+            <h3>Resultat</h3>
+            
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Laboration</th>
+                        <th>Uppgift</th>
+                        <th>Status</th>
+                        <th>Redovisad</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th colspan="4">Laborationer för Jonathan Nilsson</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">1</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6">2</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+               
+            </table>
+            
+            <h3 id="lab1.4">Laboration 1.4</h3>
+            <p>Uppgifter:</p>
+                <ol>
+                    <li>Absoluta och relativa sökvägar
+                        <dl>
+                            <dt>Skriv den absoluta sökvägen till filen bottom.html</dt>
+                            <dd>www.server.se/html/pages/bottom.html</dd>
+                            
+                            <dt>Skriv den relativa sökvägen från filen default.html till filen top.html</dt>
+                            <dd>pages/top.html</dd>
+                            
+                            <dt>Skriv den relativa sökvägen från filen bottom.html till filen index.html</dt>
+                            <dd>../../index</dd>
+                            
+                            <dt>Skriv den absoluta sökvägen till filen index.html</dt>
+                            <dd>www.server.se/index.html</dd>
+                            
+                            <dt>Skriv den relativa sökvägen från filen top.html till filen bottom.html</dt>
+                            <dd>bottom.html</dd>
+                            
+                            <dt>Skriv den relativa sökvägen från filen index.html till filen top.html</dt>
+                            <dd>html/pages/top.html</dd>
+                        </dl>
+                    </li>
+                    <li>Länkar och listor</li>
+                    <li>Bilder</li>
+                    <li>Video</li>
+                </ol>
+                    
+            <a id="Lab1.6"></a>
+                <h3>Laboration 1.6</h3>
+                <p><a href="../index.html#pictures">Bild Inlägget</a></p>
+                <p>Här skapade jag själv en bild av vektorgrafik och använde mig av img-taggen för att kunna visa den i mitt blogg-inlägg.</p>
                 
-        <a id="Lab1.9"></a>
-            <h3>Laboration 1.9</h3>
-            <p><a href="kontakt.html#form">Mitt formulärt</a></p>
-            <p>Här gjorde jag mitt första formulär.</p>
+            <a id="Lab1.7"></a>
+                <h3>Laboration 1.7</h3>
+                <p><a href="../index.html#video">Video Inlägget</a></p>
+                <p>Här använde jag mig av taggen video, för att kunna visa en video på sidan.</p>
+                    
+            <a id="Lab1.9"></a>
+                <h3>Laboration 1.9</h3>
+                <p><a href="kontakt.html#form">Mitt formulärt</a></p>
+                <p>Här gjorde jag mitt första formulär.</p>
+        </div>
+        
+        <div id="footer">
+            <p>Skrivet av mig den 18 September</p>
+        </div>
     </body>
 </html>
