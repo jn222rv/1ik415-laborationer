@@ -3,18 +3,14 @@
         border-radius:10px;
         margin-left:5px;
         padding-left:30px;
-        background-color:#CADEEE;
+        background-color:#CADEEE;/*CADEEE*/
         text-align:center;
         font-family:garamond;
+        padding:30px;
 }
 
 body {
-        background-color:#7D9EC0;
-}
-
-#header img {
-        border:solid;
-        margin-bottom:-15px;
+        background-color:#7D9EC0;/*7D9EC0*/
 }
 
 #content {
@@ -25,7 +21,7 @@ body {
         padding-left:100px;
         padding-right:100px;
         left:180px;
-        bottom:183px;
+        bottom:193px;
         width:1495px;
         margin-left:10px;
         font-family:courier;
@@ -38,6 +34,12 @@ body {
 #content table {
         margin:10px;
         margin-bottom:10px;
+}
+
+#content h3 {
+        background-image: url("pics/paper.png");
+        background-repeat:no-repeat;
+        padding-left:37px;
 }
 
 #content li > a {
@@ -102,27 +104,27 @@ p.date {
         background-color:#D2D2ff;
         text-decoration:none;
         margin-bottom:5px;
-        margin-left:-25px;
-        width:135px;
-        padding:5px;
+        margin-left:-30px;
+        width:155px;
         list-style:none;
-        display:block;
 }
 
-a.active {
+#navigation a.active {
         font-size:20px;
         font-weight:bold;
+        padding-bottom:15px;
+        padding-top:15px;
 }
 
 #navigation li a {
         color:#6600FF;
         text-decoration:none;
+        display:block;
+        padding:5px;
 }
 
 #navigation li.active {
         background-color:#638BFF;
-        padding-bottom:10px;
-        padding-top:10px;
         text-align:right;
 }
 
@@ -152,6 +154,6 @@ a.active {
         Checklist:
         
         Logo
-        Colour
+        A in li, knapp ska täcka hela list-element
 
 */
