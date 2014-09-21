@@ -4,6 +4,8 @@
         margin-left:5px;
         padding-left:30px;
         background-color:#CADEEE;
+        text-align:center;
+        font-family:garamond;
 }
 
 body {
@@ -19,11 +21,73 @@ body {
         background-color:#C0DEED;
         position:relative;
         border:1px solid;
-        padding:20px;
+        padding:50px;
+        padding-left:100px;
+        padding-right:100px;
         left:180px;
-        bottom:181px;
-        width:1650px;
+        bottom:183px;
+        width:1495px;
         margin-left:10px;
+        font-family:courier;
+}
+
+#content h1,h2,h3 {
+        border-bottom:2px solid;
+}
+
+#content table {
+        margin:10px;
+        margin-bottom:10px;
+}
+
+#content li > a {
+        text-decoration:none;
+        color:#313AFF;
+}
+
+#content li > a:hover {
+        text-decoration:underline;
+}
+
+div.framing {
+        background-color:#BACFFF;
+}
+
+div.framing > p:last-child  {
+        
+        border-bottom:1px solid;
+        border-color:#78A3FF;
+}
+
+div.framing ul:last-child  {
+        border-bottom:1px solid;
+        border-color:#78A3FF;
+}
+
+div.framing ul.specialpadding > li:last-child {
+        padding-bottom:10px;
+}
+
+div.framing ol:last-child {
+        border-bottom:1px solid;
+        border-color:#78A3FF;
+}
+
+div.framing ol.specialpadding > li:last-child {
+        padding-bottom:10px;
+}
+
+div.framing p,h2,h3 {
+        padding:5px;
+}
+
+div.framing video {
+        margin-left:10px;
+}
+
+p.date {
+        font-style:italic;
+        font-size:14px;
 }
 
 #navigation {
@@ -31,16 +95,18 @@ body {
         width:175px;
         margin:5px;
         background-color:#96CDCD;
+        font-family:georgia;
 }
 
 #navigation li {
         background-color:#D2D2ff;
         text-decoration:none;
         margin-bottom:5px;
-        margin-left:-20px;
-        width:130px;
+        margin-left:-25px;
+        width:135px;
         padding:5px;
         list-style:none;
+        display:block;
 }
 
 a.active {
@@ -51,7 +117,6 @@ a.active {
 #navigation li a {
         color:#6600FF;
         text-decoration:none;
-        display:inline;
 }
 
 #navigation li.active {
@@ -61,7 +126,7 @@ a.active {
         text-align:right;
 }
 
-div#navigation li:hover {
+#navigation li:hover {
         background-color:#9292FF;
         text-decoration:underline;
 }
@@ -71,6 +136,10 @@ div#navigation li:hover {
     margin-top:-155px;
     background-color:#008B8B;
     padding-left:15px;
+}
+
+#footer p {
+    font-style:italic;
 }
 
 #video video {
