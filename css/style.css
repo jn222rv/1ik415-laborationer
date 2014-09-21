@@ -18,16 +18,16 @@ body {
 #content {
         background-color:#C0DEED;
         position:relative;
-        border:solid;
+        border:1px solid;
         padding:20px;
         left:180px;
-        bottom:185px;
+        bottom:181px;
         width:1650px;
         margin-left:10px;
 }
 
 #navigation {
-        border:solid;
+        border:1px solid;
         width:175px;
         margin:5px;
         background-color:#96CDCD;
@@ -48,9 +48,10 @@ a.active {
         font-weight:bold;
 }
 
-li a {
+#navigation li a {
         color:#6600FF;
         text-decoration:none;
+        display:inline;
 }
 
 #navigation li.active {
