@@ -1,5 +1,5 @@
 body {
-        background-color:#7D9EC0;/*7D9EC0*/
+        background-color:#7D9EC0;
 }
 
 #header {
@@ -7,7 +7,7 @@ body {
         border-radius:10px;
         margin-left:5px;
         padding-left:30px;
-        background-color:#CADEEE;/*CADEEE*/
+        background-color:#CADEEE;
         background-image:url(pics/newLogo.png);
         background-repeat:no-repeat;
         background-position:center left 30px;
@@ -151,6 +151,10 @@ div.framing p,h2,h3,h4 {
         padding:5px;
 }
 
+div.framing .left {
+        float:right;
+}
+
 div.framing video {
         margin-left:10px;
 }
@@ -159,6 +163,22 @@ p.date {
         font-style:italic;
         font-size:14px;
 }
+
+
+/*
+        Colour:
+        
+        Body Background:                   #7D9EC0
+        Content Background:                #C0DEED
+        Framing:                           #BACFFF
+        Navigation Background:             #96CDCD
+        Header Background:                 #CADEEE
+        Footer Background:                 #008B8B
+        
+
+
+*/
+
 
 
 
