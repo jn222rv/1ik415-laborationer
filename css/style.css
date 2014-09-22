@@ -6,7 +6,7 @@ body {
         border:solid;
         border-radius:10px;
         margin-left:5px;
-        padding-left:30px;
+        padding-left:10px;
         background-color:#CADEEE;
         background-image:url(pics/newLogo.png);
         background-repeat:no-repeat;
@@ -41,12 +41,7 @@ body {
         
 }
 
-#content table {
-        margin:10px;
-        margin-bottom:10px;
-}
-
-#content a {
+#content .framing a {
         text-decoration:none;
         color:#000000;
 }
@@ -61,6 +56,21 @@ body {
 
 #content li.cross {
         list-style-image:url(pics/Cross-icon.png);
+}
+
+#content table {
+        border: 2px solid black;
+        margin:10px;
+        margin-bottom:10px;
+        background-color:#0000FF;
+}
+
+#content table col.data {
+        background-color:#ABFBBF;
+}
+
+#content table .different {
+        background-color:#00FF00;
 }
 
 #navigation {
@@ -152,6 +162,10 @@ div.framing p,h2,h3,h4 {
 }
 
 div.framing .left {
+        float:left;
+}
+
+div.framing .right  {
         float:right;
 }
 
