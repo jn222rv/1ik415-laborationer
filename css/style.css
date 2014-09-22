@@ -4,6 +4,9 @@
         margin-left:5px;
         padding-left:30px;
         background-color:#CADEEE;/*CADEEE*/
+        background-image:url(pics/newLogo.png);
+        background-repeat:no-repeat;
+        background-position:center left 30px;
         text-align:center;
         font-family:garamond;
         padding:30px;
@@ -27,6 +30,13 @@ body {
         font-family:courier;
 }
 
+#content h3.blog {
+        background-image: url("pics/paper.png");
+        background-repeat:no-repeat;
+        padding-left:37px;
+        
+}
+
 #content h1,h2,h3 {
         border-bottom:2px solid;
 }
@@ -34,12 +44,6 @@ body {
 #content table {
         margin:10px;
         margin-bottom:10px;
-}
-
-#content h3 {
-        background-image: url("pics/paper.png");
-        background-repeat:no-repeat;
-        padding-left:37px;
 }
 
 #content li > a {
