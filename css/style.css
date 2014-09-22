@@ -1,3 +1,7 @@
+body {
+        background-color:#7D9EC0;/*7D9EC0*/
+}
+
 #header {
         border:solid;
         border-radius:10px;
@@ -10,10 +14,6 @@
         text-align:center;
         font-family:garamond;
         padding:30px;
-}
-
-body {
-        background-color:#7D9EC0;/*7D9EC0*/
 }
 
 #content {
@@ -30,15 +30,15 @@ body {
         font-family:courier;
 }
 
+#content h1,h2,h3 {
+        border-bottom:2px solid;
+}
+
 #content h3.blog {
         background-image: url("pics/paper.png");
         background-repeat:no-repeat;
         padding-left:37px;
         
-}
-
-#content h1,h2,h3 {
-        border-bottom:2px solid;
 }
 
 #content table {
@@ -51,6 +51,10 @@ body {
         color:#000000;
 }
 
+#content li a:hover {
+        text-decoration:underline;
+}
+
 #content li.check {
         list-style-image:url(pics/Check-icon.png);
 }
@@ -59,8 +63,60 @@ body {
         list-style-image:url(pics/Cross-icon.png);
 }
 
-#content li a:hover {
+#navigation {
+        border:1px solid;
+        width:175px;
+        margin:5px;
+        background-color:#96CDCD;
+        font-family:georgia;
+}
+
+#navigation a.active {
+        font-size:20px;
+        font-weight:bold;
+        padding-bottom:15px;
+        padding-top:15px;
+}
+
+#navigation li {
+        background-color:#D2D2ff;
+        text-decoration:none;
+        margin-bottom:5px;
+        margin-left:-30px;
+        width:155px;
+        list-style:none;
+}
+
+#navigation li a {
+        color:#6600FF;
+        text-decoration:none;
+        display:block;
+        padding:5px;
+}
+
+#navigation li.active {
+        background-color:#638BFF;
+        text-align:right;
+}
+
+#navigation li:hover {
+        background-color:#9292FF;
         text-decoration:underline;
+}
+
+#footer {
+    border:solid;
+    margin-top:-155px;
+    background-color:#008B8B;
+    padding-left:15px;
+}
+
+#footer p {
+    font-style:italic;
+}
+
+#video video {
+        border-style:dotted; color:#000066;
 }
 
 div.framing {
@@ -104,68 +160,11 @@ p.date {
         font-size:14px;
 }
 
-#navigation {
-        border:1px solid;
-        width:175px;
-        margin:5px;
-        background-color:#96CDCD;
-        font-family:georgia;
-}
-
-#navigation li {
-        background-color:#D2D2ff;
-        text-decoration:none;
-        margin-bottom:5px;
-        margin-left:-30px;
-        width:155px;
-        list-style:none;
-}
-
-#navigation a.active {
-        font-size:20px;
-        font-weight:bold;
-        padding-bottom:15px;
-        padding-top:15px;
-}
-
-#navigation li a {
-        color:#6600FF;
-        text-decoration:none;
-        display:block;
-        padding:5px;
-}
-
-#navigation li.active {
-        background-color:#638BFF;
-        text-align:right;
-}
-
-#navigation li:hover {
-        background-color:#9292FF;
-        text-decoration:underline;
-}
-
-#footer {
-    border:solid;
-    margin-top:-155px;
-    background-color:#008B8B;
-    padding-left:15px;
-}
-
-#footer p {
-    font-style:italic;
-}
-
-#video video {
-        border-style:dotted; color:#000066;
-}
 
 
 /*
 
-        Checklist:
-        
-        Logo
-        A in li, knapp ska täcka hela list-element
+        Table Margin Bottom
+
 
 */
