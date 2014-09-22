@@ -46,12 +46,20 @@ body {
         margin-bottom:10px;
 }
 
-#content li > a {
+#content li a {
         text-decoration:none;
-        color:#313AFF;
+        color:#000000;
 }
 
-#content li > a:hover {
+#content li.check {
+        list-style-image:url(pics/Check-icon.png);
+}
+
+#content li.cross {
+        list-style-image:url(pics/Cross-icon.png);
+}
+
+#content li a:hover {
         text-decoration:underline;
 }
 
@@ -83,7 +91,7 @@ div.framing ol.specialpadding > li:last-child {
         padding-bottom:10px;
 }
 
-div.framing p,h2,h3 {
+div.framing p,h2,h3,h4 {
         padding:5px;
 }
 
