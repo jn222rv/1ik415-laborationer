@@ -26,7 +26,7 @@
                 <h3 id="form">Mitt Formulär</h3>
                 
                 <form name="input" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-                   <fieldset>
+                   <fieldset class="styled">
                         <legend>Kommentera</legend>
                         Ärendetyp:
                         <select name="Type">
@@ -34,17 +34,19 @@
                             <option value="Demand">Krav</option>
                             <option value="Other">Annat</option>
                         </select>
-                        <br>Rubrik: <input type="text" name="Subject">
+                        <br>Rubrik:<input class="specialinput" type="text" name="Subject">
                         <br>Kommentar: <textarea name="Comment" rows="2"></textarea>
                    </fieldset>
                     
-                    <fieldset>
+                    <fieldset class="styled">
                         <legend>Vilken kaka?</legend>
-                        <input type="radio" name="Info" value="right answer"  checked="checked" />Ballerina<br>
-                        <input type="radio" name="Info" value="wrong answer"/>Singoalla
+                        <input id="ballerina" type="radio" name="Info" value="right answer"  checked="checked" />                        
+                        <label for="ballerina">Ballerina</label><br>
+                        <input id="singoalla" type="radio" name="Info" value="wrong answer"/>                      
+                        <label for="singoalla">Singoalla</label><br>
                     </fieldset>
                     
-                    <input type="submit" value="Skicka"/>
+                    <input class="styled" type="submit" value="Skicka"/>
                 </form>
             </div>
         </div>
