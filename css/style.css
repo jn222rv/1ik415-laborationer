@@ -20,11 +20,11 @@ body {
         position:relative;
         border:1px solid;
         padding:50px;
-        padding-left:100px;
-        padding-right:100px;
+        padding-left:200px;
+        padding-right:200px;
         left:180px;
         bottom:193px;
-        width:76%;
+        width:68%;
         margin-left:10px;
         font-family:courier;
 }
@@ -139,7 +139,12 @@ div.framing {
         border-color:#78A3FF;
 }
 
-div.framing p,h2,h3,h4 {
+div.framing p {
+        padding-right:20px;
+        padding-left:20px;
+}
+
+div.framing h2,h3,h4 {
         padding:5px;
 }
 
