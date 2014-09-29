@@ -1,0 +1,41 @@
+#header {
+    padding:0px;
+    border:none;
+}
+
+#content {
+    position:relative;
+    left:0px;
+    top:0px;
+    border:none;
+    padding-left:150px;
+    padding-top:10px;
+}
+
+#content img {
+    width:230px;
+    height:150px;
+}
+
+#content a.external:after {
+    content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;
+}
+
+#content a,h1,h2,h3,h4 {
+    font-family:arial;
+}
+
+#navigation {
+    display:none;
+}
+
+#footer {
+    border:none;
+    position:relative;
+    left:0px;
+    top:170px;
+}
+
+div.framing {
+        border:none;
+}
