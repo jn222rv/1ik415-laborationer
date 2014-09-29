@@ -160,6 +160,14 @@ div.framing .extra-margin {
         margin-left:20px;
 }
 
+div.framing a {
+        padding-left:20px;
+}
+
+div.framing a.underline:hover {
+        text-decoration:underline;
+}
+
 p.date {
         font-style:italic;
         font-size:14px;
