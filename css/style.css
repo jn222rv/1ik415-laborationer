@@ -22,9 +22,9 @@ body {
         padding:50px;
         padding-left:200px;
         padding-right:200px;
-        left:180px;
+        left:210px;
         bottom:193px;
-        width:68%;
+        width:67%;
         margin-left:10px;
         font-family:courier;
 }
@@ -84,7 +84,7 @@ body {
 
 #navigation {
         border:1px solid;
-        width:175px;
+        width:210px;
         margin:5px;
         background-color:#96CDCD;
         font-family:georgia;
@@ -102,14 +102,83 @@ body {
         text-decoration:none;
         display:block;
         padding:5px;
+        padding-right:5px;
+        padding-left:30px;
+        background-image:url("pics/sprite.png");
+        background-position:0px 0px;
+        background-repeat:no-repeat;
+}
+
+#navigation li a#item1.active {
+        background-position:2px -34px;
+}
+
+#navigation li a#item1.active:hover {
+        background-position:2px 14px;
+}
+
+#navigation li a#item1 {
+        background-position:2px -45px;
+}
+
+#navigation li a#item1:hover {
+        background-position:2px 3px;
+}
+
+#navigation li a#item2.active {
+        background-position:2px -127px;
+}
+
+#navigation li a#item2.active:hover {
+        background-position:2px -79px;
+}
+
+#navigation li a#item2 {
+        background-position:2px -141px;
+}
+
+#navigation li a#item2:hover {
+        background-position:2px -93px;
+}
+
+#navigation li a#item3.active {
+        background-position:2px -223px;
+}
+
+#navigation li a#item3.active:hover {
+        background-position:2px -175px;
+}
+
+#navigation li a#item3 {
+        background-position:2px -237px;
+}
+
+#navigation li a#item3:hover {
+        background-position:2px -189px;
+}
+
+#navigation li a#item4.active {
+        background-position:2px -319px;
+}
+
+#navigation li a#item4.active:hover {
+        background-position:2px -271px;
+}
+
+#navigation li a#item4 {
+        background-position:2px -333px;
+}
+
+#navigation li a#item4:hover {
+        background-position:2px -285px;
 }
 
 #navigation li {
         background-color:#D2D2ff;
         text-decoration:none;
         margin-bottom:5px;
-        margin-left:-30px;
-        width:155px;
+        margin-left:-20px;
+        width:175px;
         list-style:none;
 }
 #navigation li.active {
