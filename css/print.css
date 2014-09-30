@@ -19,13 +19,23 @@
 }
 
 #content a.external:after {
-    content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;
+    content:" (" attr(href) ") ";
+    font-size:0.8em;
+    font-weight:normal;
 }
 
 #content a,h1,h2,h3,h4,p {
     font-family:arial;
     border:none;
     padding:0px;
+}
+
+#content li.check {
+        list-style-image:none;
+}
+
+#content li.cross {
+        list-style-image:none;
 }
 
 #content .framing h3.blog {
@@ -57,4 +67,10 @@ div.framing p,h1,h2,h3,h4 {
 div .date {
     text-align:left;
     margin-top:5px;
+}
+
+form {
+    position:relative;
+    left:0px;
+    border:none;
 }
