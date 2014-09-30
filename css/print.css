@@ -8,7 +8,7 @@
     left:0px;
     top:0px;
     border:none;
-    padding-left:150px;
+    padding-left:120px;
     padding-top:10px;
 }
 
@@ -21,8 +21,15 @@
     content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;
 }
 
-#content a,h1,h2,h3,h4 {
+#content a,h1,h2,h3,h4,p {
     font-family:arial;
+    border:none;
+    padding:0px;
+}
+
+#content .framing h3.blog {
+    background-image:none;
+    padding:0px;
 }
 
 #navigation {
@@ -38,4 +45,15 @@
 
 div.framing {
         border:none;
+        margin-bottom:30px;
+}
+
+div.framing p,h1,h2,h3,h4 {
+    padding:0px;
+    margin-top:5px;
+}
+
+div .date {
+    text-align:left;
+    margin-top:5px;
 }
