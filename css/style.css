@@ -242,6 +242,19 @@ p.date {
         text-align:right;
 }
 
+form {
+        position:relative;
+        font-family:arial;
+        color:#3A5FCD;
+        background-color:#3D59AB;
+        padding-top:7px;
+        width:500px;
+        left:300px;
+        bottom:10px;
+        border-radius:10px;
+        border:2px dashed black;
+}
+
 form .styled {
         margin:10px;
 }
@@ -251,14 +264,40 @@ form fieldset.styled, legend {
 }
 
 form legend {
+        font-weight:bold;
+        color:#27408B;
+        font-family:tahoma;
         border-color:#FF0000;
-        border-top:1px solid gray;
-        border-left:1px solid gray;
-        border-right:1px solid gray;
+        border-top:1px groove #9FB6CD;
+        border-left:1px groove #9FB6CD;
+        border-right:1px groove #9FB6CD;
+        padding-left:5px;
+        padding-right:5px;
+        padding-top:5px;
 }
 
 form input.specialinput {
-        margin-left:41px;
+        margin-left:43px;
+}
+
+form select#option {
+        margin-left:12px;
+}
+
+form #sendbutton {
+        position:relative;
+        left:220px;
+        bottom:7px;
+        padding:5px;
+        color:#473C8B;
+        background-color:#D8BFD8;
+}
+
+h3#form {
+        text-align:center;
+        font-family:arial;
+        color:#27408B;
+        border-bottom-style:groove;
 }
         
 
