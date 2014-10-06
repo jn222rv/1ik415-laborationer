@@ -1,0 +1,41 @@
+body {
+    margin:0px;
+    padding:0px;
+    width:481px;
+}
+
+#header {
+    width:481px;
+    padding:0px;
+    margin:0px;
+    font-size:12px;
+}
+
+#content {
+    left:0px;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    margin:0px;
+    padding:0px;
+    width:481px;
+}
+
+#content .framing {
+    margin:5px auto;
+}
+
+#navigation {
+    width:481px;
+    margin:0px;
+}
+
+#navigation li {
+    width:450px;
+}
+
+#footer {
+    width:481px;
+    margin:0px;
+    padding:0px;
+}
