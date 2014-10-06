@@ -46,6 +46,30 @@ body {
     font-weight:bolder;
 }
 
+#content img#orbs {
+    display:block;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#content table {
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#content form {
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    left:0px;
+}
+
+#content form #sendbutton {
+    left:0px;
+}
+
 #navigation {
     width:100%;
     left:0px;
