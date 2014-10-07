@@ -191,14 +191,14 @@ body {
 }
 
 #footer {
-    border:solid;
-    margin-top:-185px;
-    background-color:#008B8B;
-    padding-left:15px;
+        border:solid;
+        margin-top:-185px;
+        background-color:#008B8B;
+        padding-left:15px;
 }
 
 #footer p {
-         font-style:italic;
+        font-style:italic;
 }
 
 div.framing {
