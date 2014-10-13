@@ -81,6 +81,11 @@ body {
         background-color:#11FF61;
 }
 
+#content .vcard {
+        margin-top:20px;
+        padding:10px;
+}
+
 #navigation {
         border:1px solid;
         width:210px;
