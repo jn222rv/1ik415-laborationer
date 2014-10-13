@@ -2,7 +2,7 @@ body {
         background-color:#7D9EC0;
 }
 
-Header {
+header {
         border:solid;
         border-radius:10px;
         margin-left:5px;
@@ -15,7 +15,7 @@ Header {
         padding:30px;
 }
 
-Main {
+main {
         background-color:#C0DEED;
         position:relative;
         border:1px solid;
@@ -29,42 +29,42 @@ Main {
         font-family:courier;
 }
 
-Main h1,h2,h3 {
+main h1,h2,h3 {
         border-bottom:2px solid;
 }
 
-Main h3.blog {
+main h3.blog {
         background-image: url("pics/paper.png");
         background-repeat:no-repeat;
         padding-left:37px;
 }
 
-Main Article a {
+main article a {
         text-decoration:none;
         color:#000000;
 }
 
-Main li a:hover {
+main li a:hover {
         text-decoration:underline;
 }
 
-Main img.right {
+main img.right {
         margin:5px;
 }
 
-Main img#orbs {
+main img#orbs {
         margin-top:10px;
 }
 
-Main li.check {
+main li.check {
         list-style-image:url(pics/Check-icon.png);
 }
 
-Main li.cross {
+main li.cross {
         list-style-image:url(pics/Cross-icon.png);
 }
 
-Main table {
+main table {
         border: 2px solid black;
         border-left: 2px solid green;
         border-top: 2px solid green;
@@ -73,11 +73,11 @@ Main table {
         background-color:#3D9140;
 }
 
-Main table col.data {
+main table col.data {
         background-color:#ABFBBF;
 }
 
-Main table .different {
+main table .different {
         background-color:#11FF61;
 }
 
@@ -190,49 +190,49 @@ nav li:hover {
         text-decoration:underline;
 }
 
-Footer {
+footer {
         border:solid;
         margin-top:-185px;
         background-color:#008B8B;
         padding-left:15px;
 }
 
-Footer p {
+footer p {
         font-style:italic;
 }
 
-Article {
+article {
         background-color:#BACFFF;
         border-bottom:1px solid;
         border-color:#78A3FF;
 }
 
-Article p {
+article p {
         padding-right:20px;
         padding-left:20px;
 }
 
-Article h2,h3,h4 {
+article h2,h3,h4 {
         padding:5px;
 }
 
-Article .left {
+article .left {
         float:left;
 }
 
-Article .right  {
+article .right  {
         float:right;
 }
 
-Article .extra-margin {
+article .extra-margin {
         margin-left:20px;
 }
 
-Article a {
+article a {
         padding-left:20px;
 }
 
-Article a.underline:hover {
+article a.underline:hover {
         text-decoration:underline;
 }
 
@@ -241,6 +241,18 @@ p.date {
         font-size:14px;
         text-align:right;
 }
+
+article section.blog {
+    margin-left:70px;
+    margin-bottom:20px;
+    width:30%;
+}
+
+article article {
+    background-color:#FFF;
+}
+
+
 
 form {
         position:relative;
@@ -308,8 +320,8 @@ h3#form {
         Content Background:                #C0DEED
         Framing:                           #BACFFF
         Navigation Background:             #96CDCD
-        Header Background:                 #CADEEE
-        Footer Background:                 #008B8B
+        header Background:                 #CADEEE
+        footer Background:                 #008B8B
         
 
 
