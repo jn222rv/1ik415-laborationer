@@ -20,26 +20,29 @@ a {
     font-family:'PixelMix';
     color:#4169E1;
     box-shadow:15px 15px rgba(150,150,150,0.3);
-    -webkit-transition:width 2s, height 2s, background-color 2s, 
-    -webkit-transform 2s;
+    -webkit-transition:width 2s, height 2s, background-color 2s, transform 2s, z-index 2s, box-shadow 2s;
     transition:width 2s, height 2s, background-color 2s, transform 2s, z-index 2s, box-shadow 2s;
     -webkit-transform:rotate(5deg);
+    transform:rotate(5deg);
 }
 
 a:nth-last-of-type(3n)
 {
     -webkit-transform:rotate(-5deg);
+    transform:rotate(-5deg);
 }
 
 a:nth-last-of-type(5n)
 {
     -webkit-transform:rotate(10deg);
+    transform:rotate(10deg);
 }
 
 a:hover {
     position:relative;
     -webkit-transform:rotate(0deg);
     transform:rotate(0deg);
+    -webkit-transform:scale(2.3);
     transform:scale(2.3);
     z-index:5;
     box-shadow:15px 15px 10px 20px rgba(150,150,150,0.2);
@@ -63,6 +66,9 @@ a:after {
 }
 
 #sida {
+    position:relative;
+    top:50px;
+    right:75px;
     text-align:center;
     float:right;
     width:20%;
@@ -73,6 +79,6 @@ a:after {
     font-family:"pixelmix";
 }
 
-#sida li {
+#sida li,p {
     text-align:left;
 }
