@@ -2,8 +2,13 @@ body {
     background-color:#AACAFF;
 }
 
+@font-face {
+    font-family: 'MyFont';
+    src:url('../gallery/pixelmix.ttf');
+}
 
 a {
+    position:relative;
     display:block;
     float:left;
     width:210px;
@@ -12,16 +17,20 @@ a {
     background-color:#FFFFFF;
     margin:20px;
     text-align:center;
+    font-family:'MyFont';
+    color:#4169E1;
     -webkit-transition:width 2s, height 2s, background-color 2s, 
     -webkit-transform 2s;
-    transition:width 2s, height 2s, background-color 2s, transform 2s;
+    transition:width 2s, height 2s, background-color 2s, transform 2s, z-index 2s;
     -webkit-transform:rotate(5deg);
 }
 
 a:hover {
+    position:relative;
     -webkit-transform:rotate(0deg);
     transform:rotate(0deg);
     transform:scale(2.3);
+    z-index:5;
 }
 
 img {
